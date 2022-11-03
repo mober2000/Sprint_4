@@ -100,14 +100,6 @@ public class HomePageScooter {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView();", element);
     }
 
-    //Метод на проверку кликабельности и перехода по логотипу яндекса
-    public void openYandexDzen(){
-        driver.findElement(yandexLogo).click();
-        new WebDriverWait(driver, Duration.ofSeconds(15))
-                .until(ExpectedConditions.elementToBeClickable(yandexDzenPageLogo));
-        driver.findElement(yandexDzenPageLogo).isDisplayed();
-    }
-
 
 
 
