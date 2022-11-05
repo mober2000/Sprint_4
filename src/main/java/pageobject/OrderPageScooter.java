@@ -12,8 +12,6 @@ public class OrderPageScooter {
     private By orderSecondName = By.xpath(".//input[@placeholder='* Фамилия']");
     private By orderAddressPoint = By.xpath(".//input[@placeholder='* Адрес: куда привезти заказ']");
     private By orderMetroStationField = By.xpath(".//input[@placeholder='* Станция метро']");
-
-    private By orderMetroStation = By.className("Order_Text__2broi");
     private By orderContactPhone = By.xpath(".//input[@placeholder='* Телефон: на него позвонит курьер']");
     private By orderNextButton = By.xpath(".//button[text()='Далее']");
     //Локаторы данных об аренде
